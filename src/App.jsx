@@ -7,7 +7,7 @@ import "./App.css";
 // Local testing: localhost
 // Multiple devices: replace with your computer's LAN IP
 const socket = io(
-  import.meta.env.VITE_SOCKET_URL || "http://localhost:5000"
+  "https://play-backend-05qd.onrender.com"
 );
 
 // Detect YouTube video ID
